@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(236, 242, 247);
+  font-family: inter;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: rgb(44, 44, 238);
+  font-family: chivo;
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+a {
+  color: rgb(108, 14, 108);
+  font-family: chivo;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.container {
+  margin: 0 auto;
+  width: 580px;
+}
+
+.card-white {
+  padding: 52px;
+  background-color: white;
+  margin-bottom: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+}
+
+.btn-purple {
+  background-color: rgb(108, 14, 108);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.card-white ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.card-white li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.card-white p {
+  margin-bottom: 20px;
+}
